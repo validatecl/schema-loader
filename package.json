@@ -1,0 +1,58 @@
+{
+  "name": "@validatecl/schema-loader",
+  "version": "1.0.2",
+  "description": "validatecl project template.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc mocha -r ts-node/register 'test/**/*.spec.ts'",
+    "postversion": "git push --follow-tags",
+    "build": "tsc && npm run docs",
+    "docs": "typedoc",
+    "prepack": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/validatecl/schema-loader.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "validatecl <hi@validatecl.dev> (https://github.com/validatecl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/validatecl/schema-loader/issues"
+  },
+  "homepage": "https://github.com/validatecl/schema-loader#readme",
+  "engines": {
+    "node": "12",
+    "npm": "6"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "mongoose": "5"
+  },
+  "devDependencies": {
+    "@validatecl/eslint-config": "^1.0.2",
+    "@types/chai": "^4.2.12",
+    "@types/faker": "^4.1.12",
+    "@types/mocha": "^8.0.3",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^12.12.55",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.8.1",
+    "faker": "^5.1.0",
+    "mocha": "^8.1.3",
+    "mongodb-memory-server-core": "^6.6.7",
+    "mongoose": "^5.10.7",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
+}
