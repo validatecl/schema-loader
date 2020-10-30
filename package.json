@@ -1,6 +1,6 @@
 {
   "name": "@validatecl/schema-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "validatecl project template.",
   "main": "lib/index.js",
   "scripts": {

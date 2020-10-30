@@ -1,6 +1,6 @@
 # @validatecl/schema-loader
 
-[![Build Status](https://travis-ci.org/validatecl/schema-loader.svg?branch=master)](https://travis-ci.org/validatecl/schema-loader)
+[![Build Status](https://travis-ci.org/validatecl/schema-loader.svg?branch=main)](https://travis-ci.org/validatecl/schema-loader)
 ![GitHub](https://img.shields.io/github/license/validatecl/schema-loader)
 ![GitHub last commit](https://img.shields.io/github/last-commit/validatecl/schema-loader)
 ![npm (scoped)](https://img.shields.io/npm/v/@validatecl/schema-loader)
